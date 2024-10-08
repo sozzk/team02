@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArgosCare</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="main_contents">
+      <ul class="layout">
+        <li class="layout_top">
+          <a href="sub/sub01.html" class="bell"><img src="img/main/bell.svg" alt="알림"></a>
+          <!-- 레이아웃 -->
+          <div class="custom-svg">
+            <div class="roof">
+              <img src="img/main/rectangle.png" alt="레이아웃">
+            </div>
+            <div class="rec">
+            </div>
+          </div>
+          <!-- 내용_지붕 -->
+          <div class="txt">
+            <div class="profile"><img src="img/profile.png" alt="프로필"></div>
+            <p>아르고 주간보호센터</p>
+            <p>강수급 <span>님</span></p>
+          </div>
+        </li>
+      </ul>
+
+      <ul>
+        <li class="main_box_long"><a href="sub/sub02.html">
+            <span>최근건강내역 및<br>급여제공기록</span>
+          </a></li>
+        <li class="main_box "><a href="sub/sub03.html">
+            <span>문자기록</span>
+          </a></li>
+        <li class="main_box"><a href="sub/sub04.html">
+            <span>활동일지</span>
+          </a></li>
+        <li class="main_box"><a href="sub/sub05.html">
+            <span>청구내역</span>
+          </a></li>
+        <li class="main_box"><a href="sub/sub06.html">
+            <span>입금내역</span>
+          </a></li>
+      </ul><!-- layout -->
+    </div><!-- main_content -->
+    <div class="tab_bar">
+      <ul class="tab_menu">
+        <li><a href="sub/sub08.html">공지사항</a></li>
+        <li><a href="main.html">홈</a></li>
+        <li><a href="sub/sub09.html">내 정보</a></li>
+      </ul>
+    </div><!-- tab_bar -->
+  </div>
+
+
+  <!-- 코치마크main -->
+  <div class="coatch">
+    <div class="coatch_wrap">
+      <div class="coatch_detail">
+        <a href="#" class="bell"><img src="img/main/bell.svg" alt="알림"></a>
+      </div><!-- coatch03_date_box -->
+      <div class="coatch_guide">
+        <span>알림</span>
+        <p>여기를 눌러 최신 소식과<br>
+          공지사항을 확인하세요</p>
+      </div>
+    </div><!-- coatch_wrap -->
+  </div><!-- coatch-->
+  <script>
+    $("body").css({ "overflow-y": "hidden" });
+    $(function () {
+      $(".coatch").click(function () {
+        $("body").css({ "overflow-y": "auto" })
+      });
+    })
+  </script>
+
+
+
+</body>
+
+</html>
