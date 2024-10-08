@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArgosCare</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+  <!-- js -->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <header id="header">
+      <div class="inner">
+        <div class="tool_back"><a href="../index.html"><img src="../img/ico_tool_back.svg" alt="뒤로"></a></div>
+        <strong>내 정보</strong>
+      </div><!-- inner -->
+    </header><!-- header -->
+
+    <div id="sub09">
+      <div class="sub09_profile">
+        <img src="../img/img_grandma.png" alt="할머니사진">
+        <i>아르고 주간보호센터</i>
+        <p>강수급<span>님</span></p>
+        <div class="protector">
+          <ul>
+            <li>
+              <p>보호자 성함</p>
+              <b>김보호님</b>
+            </li>
+            <li></li>
+            <li>
+              <p>보호자 연락처</p>
+              <b>010-1234-5678</b>
+            </li>
+          </ul>
+        </div><!-- protector -->
+
+        <div class="sub09_list">
+          <ul>
+            <li>
+              <div class="sub09_toggle_left">
+                <img src="../img/sub09_list_ico01.svg" alt="알림설정">
+                <p>알림설정
+                  <span>활동일지, 공지 등의 알림을 받습니다.</span>
+                </p>
+              </div><!-- sub09_toggle_left -->
+              <em class="sub09_toggle"></em>
+            </li>
+            <li>
+              <div class="sub09_toggle_left">
+                <img src="../img/sub09_list_ico02.svg" alt="문의하기">
+                <p>문의하기</p>
+              </div>
+              <em><img src="../img/ico_sub09_arrow.svg" alt="화살표"></em>
+            </li>
+            <li>
+              <a href="sub0901.html">
+                <div>
+                  <img src="../img/sub09_list_ico03.svg" alt="비밀번호변경">
+                  <p>비밀번호변경</p>
+                </div>
+                <em><img src="../img/ico_sub09_arrow.svg" alt="화살표"></em>
+              </a>
+            </li>
+            <li>
+              <a href="sub0902.html">
+                <div>
+                  <img src="../img/sub09_list_ico04.svg" alt="버전정보">
+                  <p>버전정보</p>
+                </div>
+                <em><img src="../img/ico_sub09_arrow.svg" alt="화살표"></em>
+              </a>
+            </li>
+            <li>
+              <div class="sub09_toggle_left">
+                <img src="../img/sub09_list_ico05.svg" alt="로그아웃">
+                <p>로그아웃</p>
+              </div>
+              <em><img src="../img/ico_sub09_arrow.svg" alt="화살표"></em>
+            </li>
+          </ul>
+        </div><!-- sub09_list -->
+      </div><!-- sub09_profile -->
+    </div><!-- #sub09 -->
+
+    <div class="sub09_modal01">
+      <div class="sub09_modal01_inner">
+        <b>문의하기<img src="../img/ico_sub09_close.svg" alt="닫기"></b>
+        <p>궁금한 점이 있으신가요?<br>
+          버튼을 누르면 센터로 전화연결 됩니다.</p>
+        <button class="sub09_modal01_btn">
+          <p>센터로 전화 연결</p>
+        </button><!-- sub09_modal01_btn -->
+        <p>운영시간 09:00 ~ 18:00</p>
+      </div><!-- sub09_modal01_inner -->
+    </div><!-- sub09_modal01 -->
+
+    <div class="sub09_modal02">
+      <div class="sub09_modal02_inner">
+        <b>로그아웃</b>
+        <p>로그아웃 하시겠습니까?</p>
+        <button class="sub09_modal02_btn">
+          <p>취소</p>
+          <p><a href="https://parkdahee0.github.io/team02_splash/">로그아웃</a></p>
+        </button><!-- sub09_modal02_btn -->
+      </div><!-- sub09_modal02_inner -->
+    </div><!-- sub09_modal02 -->
+  </div><!-- #wrap -->
+
+  <!-- 코치마크09 -->
+  <div class="coatch09">
+    <div class="coatch09_wrap">
+      <div class="coatch09_detail">
+        <div class="coatch09_toggle_left">
+          <img src="../img/sub09_list_ico01.svg" alt="알림설정">
+          <p>알림설정
+            <span>활동일지, 공지 등의 알림을 받습니다.</span>
+          </p>
+        </div><!-- sub09_toggle_left -->
+        <em class="coatch09_toggle"></em>
+      </div><!-- coatch09_detail -->
+      <div class="coatch09_guide">
+        <span>알림</span>
+        <p>알림설정을 변경하려면<br>
+          이 버튼을 켜거나 끄세요</p>
+      </div><!-- coatch09_guide -->
+    </div><!-- coatch09_wrap -->
+  </div><!-- coatch09-->
+  <script>
+    $("body").css({ "overflow-y": "hidden" });
+    $(function () {
+      $(".coatch09").click(function () {
+        $("body").css({ "overflow-y": "auto" })
+      });
+    })
+  </script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArgosCare</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+  <!-- js -->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <header id="header">
+      <div class="inner">
+        <div class="tool_back"><a href="sub04.html"><img src="../img/ico_tool_back.svg" alt="뒤로"></a></div>
+        <strong>활동일지</strong>
+      </div><!-- inner -->
+    </header><!-- header -->
+
+    <div class="sub0401_wrap">
+      <div class="sub0401_tit">
+        <ul>
+          <li>2024년 9월 6일(금)</li>
+          <li>[2024년9월6일] 미술활동 색칠하기 & 치매예방 건강체조</li>
+        </ul>
+      </div><!-- sub0401_tit" -->
+
+      <div class="sub0401_txt">
+        <p>오늘도 우리 아르고 주간보호센터 어르신들과 행복한 시간을 보내었습니다. 어르신들 건강한 모습 그리고 행복한 모습을 함게 할 수 있어 너무나 감사합니다.</p>
+        <strong>[오전 프로그램] 미술 프로그램</strong> <img src="../img/photo01.png" alt="활동사진01">
+        <img src="../img/photo02.png" alt="활동사진02">
+        <img src="../img/photo03.png" alt="활동사진03">
+        <img src="../img/photo04.png" alt="활동사진04">
+        <img src="../img/photo05.png" alt="활동사진05">
+        <p>미술 프로그램입니다. 어르신들의 창의력 및 집중력 향상을 위해 진행해보았습니다.<br>
+          알록달록 예쁘게 색칠하고, 자르고 붙여보며 가지각색의 프로그램을 진행해보았습니다.<br>
+          우리 어르신들이 만든 멋진 작품입니다.</p>
+        <strong>[오후 프로그램] 건강체조</strong>
+        <img src="../img/photo06.png" alt="활동사진06">
+        <img src="../img/photo07.png" alt="활동사진07">
+        <img src="../img/photo08.png" alt="활동사진08">
+        <p>전문 강사님이 진행해주시는 건강체조 시간입니다. 우리 어르신들 오랜만에 승부욕이 샘솟으셨는데요, 활기찬 모습이 멋졌습니다.</p>
+        <p>이렇게 동료 어르신과 함게하는 활동은 사회적 유대감을 형성하고 스트레스를 해소합니다. 치매 예방과 우울증 예방도 동시에 할 수 있어요.</p>
+        <p>앞으로도 어르신들의 기운찬 일상을 위해 저희 아르고 주간보호센터는 항상 노력하겠습니다.<br>
+          감사합니다!</p>
+      </div>
+      <!--fix버튼-->
+      <div class="sub0401_btn">
+        <button type="button" class="please">사진 받기</button>
+        <button onclick="window.scrollTo(0,0)" type="button" class="go_top">맨 위로</button>
+      </div>
+      <!-- 모달 -->
+      <div class="sub0401_modal">
+        <div class="sub0401_modal_inner">
+          <b>사진받기</b>
+          <p>모든 파일을 다운 받으시겠습니까?</p>
+          <div class="sub0401_modal_btn">
+            <button type="button">취소</button>
+            <button type="button">다운 받기</button>
+          </div><!-- sub0401_modal_btn -->
+        </div><!-- sub0401_modal_inner -->
+      </div><!-- sub0401_modal -->
+    </div><!-- sub0401_wrap -->
+
+    <!--sub0401코치마크 -->
+    <div class="coatch0401">
+      <div class="coatch0401_wrap">
+        <div class="coatch0401_guide">
+          <span>활동일지</span>
+          <p>여기를 눌러 모든 사진을<br>
+            저장할 수 있어요</p>
+        </div><!-- coatch0401_guide -->
+        <span>사진 받기</span>
+      </div><!--coatch0401_wrap -->
+    </div><!-- coatch0401 -->
+  </div><!-- wrap -->
+
+  <script>
+    $("body").css({ "overflow-y": "hidden" });
+    $(function () {
+      $(".coatch0401").click(function () {
+        $("body").css({ "overflow-y": "auto" })
+      });
+    })
+  </script>
+</body>
+
+</html>

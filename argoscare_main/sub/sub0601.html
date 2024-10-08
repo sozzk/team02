@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArgosCare</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+  <!-- js -->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+    <!-- header -->
+    <header id="header">
+      <div class="inner">
+        <div class="tool_back"><a href="sub06.html"><img src="../img/ico_tool_back.svg" alt="뒤로"></a></div>
+        <strong>입금내역</strong>
+        <a href="#" class="sub0601_back">처음으로</a><!-- opacity 0처리함 -->
+      </div><!-- inner -->
+    </header><!-- header -->
+
+    <!-- sub0601_content -->
+    <div id="sub0601_content">
+      <div class="sub0601_date_box">
+        <span>2023년 12월 <img src="../img/ico_date_arrow.svg" alt="기간설정"></span>
+      </div><!-- date_box -->
+      <!-- 입금내역리스트  -->
+      <div class="sub0601_wrap">
+        <ul class="sub0601_tit">
+          <li>
+            <p><b>2023년 12월 입금내역</b> <strong>29,880원</strong></p>
+            <span>2023.12.01-2023.12.31</span>
+          </li>
+        </ul><!-- sub06_tit -->
+        <ul class="sub0601_list">
+          <li>입금날짜 <span>24년12월31일</span></li>
+          <li>입금방법 <span>카드</span></li>
+          <li>입금자 <span>홍길동</span></li>
+          <li>입금금액 <span>29,880원</span></li>
+        </ul>
+      </div><!-- sub06_wrap -->
+    </div>
+    <!--sub0601코치마크 -->
+    <!--     <div class="coatch0601">
+      <div class="coatch0601_wrap">
+        <div class="coatch0601_detail">
+          <a href="#" class="coatch_sub0601_back">처음으로</a>
+        </div>
+        <div class="coatch0601_guide">
+          <span>입금내역</span>
+          <p>처음화면으로 돌아가려면<br>
+            이 버튼을 누르세요</p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <!--   <script>
+    $("body").css({ "overflow-y": "hidden" });
+    $(function () {
+      $(".coatch0601").click(function () {
+        $("body").css({ "overflow-y": "auto" })
+      });
+    })
+  </script> -->
+  </div>
+  <!-- 데이트피커 -->
+  <div class="sub0601_calendar">
+    <div class="sub0601_calendar_inner">
+      <h2>기간선택</h2>
+      <div class="sub0601_calendar_select">
+        <ul class="sub0601_calendar_year">
+          <li>2022년</li>
+          <li>2023년</li>
+          <li>2024년</li>
+        </ul>
+        <ul class="sub0601_calendar_month">
+          <li>7월</li>
+          <li>8월</li>
+          <li>9월</li>
+        </ul>
+      </div><!-- sub0601_calendar_select -->
+
+      <button class="sub0601_calendar_btn">
+        <p>취소</p>
+        <p>선택</p>
+      </button><!-- sub0601_calendar_btn -->
+    </div><!-- sub0601_calendar_inner -->
+  </div><!-- sub0601_calendar -->
+</body>
+
+</html>

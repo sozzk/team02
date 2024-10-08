@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArgosCare</title>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/font.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/sub.css">
+  <link rel="stylesheet" href="../css/media.css">
+
+  <!-- js -->
+  <script src="../js/jquery-3.7.1.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</head>
+
+<body class="sub04">
+  <div id="wrap">
+    <div class="sub04_wrap">
+      <!-- header -->
+      <header id="header">
+        <div class="inner">
+          <div class="tool_back"><a href="../index.html"><img src="../img/ico_tool_back.svg" alt="뒤로"></a></div>
+          <strong>활동일지</strong>
+        </div><!-- inner -->
+      </header><!-- header -->
+
+
+      <!-- sub04(활동일지)_content -->
+      <div class="sub04_content">
+        <a href="sub0401.html">
+          <ul>
+            <li>2024년 9월 6일(금)</li>
+            <li>[오전] 미술활동 & [오후] 건강체조</li>
+            <li><img src="../img/album01.png" alt="앨범01"><span>+7장</span></li>
+          </ul>
+        </a>
+        <a href="sub0401.html">
+          <ul>
+            <li>2024년 8월 30일(금)</li>
+            <li>8월 5주차 어르신들 생신잔치</li>
+            <li><img src="../img/album02.png" alt="앨범02"><span>+10장</span></li>
+          </ul>
+        </a>
+        <a href="sub0401.html">
+          <ul>
+            <li>2024년 8월 22일(목)</li>
+            <li>[오전] 구연동화 & [오후] 인지활동 프로그램</li>
+            <li><img src="../img/album03.png" alt="앨범03"><span>+6장</span></li>
+          </ul>
+        </a>
+        <a href="sub0401.html">
+          <ul>
+            <li>2024년 8월 20일(화)</li>
+            <li>[오전] 소양교육 & [오후] 음악회상</li>
+            <li><img src="../img/album04.png" alt="앨범04"><span>+7장</span></li>
+          </ul>
+        </a>
+      </div><!--sub04_content -->
+    </div><!-- sub04_wrap -->
+
+    <!--sub04 코치마크 -->
+    <div class="coatch04">
+      <div class="coatch04_wrap">
+        <span>+7장</span>
+        <div class="coatch04_guide">
+          <span>활동일지</span>
+          <p>앨범에 포함된 사진개수를<br>
+            확인할 수 있어요</p>
+        </div><!-- coatch04_guide -->
+      </div><!-- coatch04_wrap -->
+    </div><!-- coatch04 -->
+  </div><!-- wrap -->
+  <script>
+    $("body").css({ "overflow-y": "hidden" });
+    $(function () {
+      $(".coatch04").click(function () {
+        $("body").css({ "overflow-y": "auto" })
+      });
+    })
+  </script>
+</body>
+
+</html>
