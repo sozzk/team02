@@ -1,0 +1,132 @@
+#root {
+  min-width: 360px;
+  max-width: 768px;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-family: 'Pretendard', sans-serif;
+  text-align: center;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+#img_wrap {
+  width: 80px;
+  height: 80px;
+  margin: 70px auto 0;
+}
+
+img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+  margin: 16px 0 24px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.search {
+  width: 100%;
+  background-color: #fff;
+}
+
+fieldset>div {
+  margin: 0 0 16px;
+}
+
+a.sub00_search {
+  display: block;
+  padding: 18px 16px 16px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: url(../img/ico_intro_home.svg) no-repeat 13px center;
+  text-align: start;
+}
+
+input.userName:focus {
+  border: 1px solid #0471E9;
+}
+
+
+input.userName {
+  display: block;
+  width: 100%;
+  padding: 16px 16px 14px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: url('../img/ico_intro_person.svg') no-repeat 16px center;
+}
+
+input.userPw {
+  width: 100%;
+  padding: 14px 16px 14px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: url('../img/ico_intro_lock.svg') no-repeat 16px center;
+}
+
+input.userPw:focus {
+  border: 1px solid #0471E9;
+}
+
+input.userName::placeholder {
+  color: #999;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input.userPw::placeholder {
+  color: #999;
+  font-family: 'Pretendard', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.checkboxx {
+  text-align: start;
+  font-size: 1.6rem;
+}
+
+.intro_checkbox {
+  margin-right: 8px;
+}
+
+.btn_box {
+  max-width: 380px;
+  min-width: 328px;
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  width: calc(100% - 32px);
+  margin: 0;
+  transform: translateX(-50%);
+}
+
+a.btn_login,
+a.btn_login:hover {
+  display: inline-block;
+  border-radius: 10px;
+  width: 100%;
+  padding: 16px 0;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #0471E9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
